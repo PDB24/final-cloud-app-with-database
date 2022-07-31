@@ -166,4 +166,3 @@ def show_exam_result(request, course_id, submission_id):
     #user = request.user
     #return render(request, 'onlinecourse/show_exam_result.html', context)
     return render(request, 'onlinecourse/exam_result_bootstrap.html', context)
-
